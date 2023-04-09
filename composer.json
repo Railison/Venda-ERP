@@ -1,0 +1,26 @@
+{
+  "name":"railison/venda-erp",
+  "description":"SDK Venda ERP - Sistema ERP White Label",
+  "keywords"   : ["vendaerp", "nfe", "nfce", "erp", "SDK"],
+  "type":"library",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Railison",
+      "email": "railison.v@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "Railison\\Vendaerp\\Produtos\\": "src/",
+      "Railison\\Vendaerp\\Pedidos\\": "src/"
+    }
+  },
+  "require":{
+    "php": ">=7.0"
+  },
+  "require-dev": {
+      "guzzlehttp/guzzle": ">=7.5.0"
+    },
+  "minimum-stability": "dev"
+}
